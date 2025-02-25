@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="./assets/img/logo.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="assets/style/main.css">
+  <link rel="stylesheet" href="assets/style/style.css">
+  <title>vendr</title>
+</head>
+
+<body data-bs-theme="light">
+  <!-- SECTION -->
+  <header>
+    <nav class="navbar text-light gap-2 px-2">
+      <img src="./assets/img/logo.png" height="45" alt="" loading="lazy">
+      <div><b>vendr</b></div>
+      <div class="ms-auto" id="authstate"></div>
+      </div>
+      <button>Add $</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="container">
+      <div id="SnackCards" class="row">
+        <!-- <div class="col 4">
+          <div></div>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR82_145lD-szriFjAc5YkdDFzpDVb1uNQFOQ&s"
+            alt="image of gummy bears">
+          <span>Candy</span>
+          <div>$2.00</div>
+        </div>
+        <div class="col 4">
+          <div></div>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuGIuA2mnczTIfqxaT-xEB_FArlVZEDC1NaQ&s"
+            alt="image of a bag of chips">
+          <span>Chips</span>
+          <div>$1.75</div>
+        </div>
+        <div class="col 4">
+          <div></div>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbT2vu3WatDT1KLdO-Vr4vRUd68h-Sou68Gw&s"
+            alt="image of a bag of beef jerky">
+          <span>Jerky</span>
+          <div>$3.00</div>
+        </div>
+        <div class="col 4">
+          <div></div>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi0N92qaepMSrVW3swMBk845fTZL7o4ddu9Q&s"
+            alt="image of a bag of pretzels">
+          <span>Pretzels</span>
+          <div>$2.00</div>
+        </div>
+        <div class="col 4">
+          <div></div>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR7m84lJ-Q8cb8zIPNm_s8qjJ1USivnfIY9Q&s"
+            alt="image of a pack of gum">
+          <span>Gum</span>
+          <div>$1.00</div>
+        </div>
+        <div class="col 4">
+          <div></div>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-NnYYrFaGS2Iwp8oNEn_jhHTYJ35TlHRSmQ&s"
+            alt="image of a bag of trail mix">
+          <span>Trail Mix</span>
+          <div>$2.50</div>
+        </div> -->
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="text-bg-dark">
+    <div class="text-center">
+      <p class="mb-0"><small>Made with <i class="mdi mdi-heart text-pink"></i> by CodeWorks</small></p>
+    </div>
+  </footer>
+
+  <!-- SECTION links for bootstrap, axios, and auth -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://cdn.auth0.com/js/auth0-spa-js/1.22/auth0-spa-js.production.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/jakeoverall/auth0provider-client/browser/Auth0Provider.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <!-- The start of our javascript -->
+  <script src="app/App.js" type="module"></script>
+</body>
+
+</html>
