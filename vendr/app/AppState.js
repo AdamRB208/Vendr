@@ -5,7 +5,6 @@ import { createObservableProxy } from './utils/ObservableProxy.js'
 
 class ObservableAppState extends EventEmitter {
 
-  money = 0
 
   snacks = [
     new Snack({
@@ -46,6 +45,7 @@ class ObservableAppState extends EventEmitter {
 
   ]
 
+  money = 0
 
   /**@type {import('./models/Example.js').Example[]} */
   examples = []

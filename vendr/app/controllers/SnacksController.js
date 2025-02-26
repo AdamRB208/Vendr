@@ -18,4 +18,5 @@ export class SnacksController {
     const snackListElem = document.getElementById('SnackCards')
     snackListElem.innerHTML = SnackCardsContent
   }
+
 }

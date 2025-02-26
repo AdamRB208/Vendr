@@ -22,3 +22,11 @@ main {
 header {
   background-color: green;
 }
+
+
+.itemimg {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  margin: 2rem;
+}

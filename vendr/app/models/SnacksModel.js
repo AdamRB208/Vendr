@@ -13,11 +13,12 @@ export class Snack {
     return `
     <div class="col 4">
           <div></div>
-          <img src="${this.imgUrl}
+          <img class="itemimg" src="${this.imgUrl}
             alt="image of vending machine items">
           <span>${this.name}</span>
-          <div>${this.price.toFixed(2)}</div>
+          <div><button class="mt-2 mb-3 p-1"onclick="app.SnacksController.addQuarter()">$${this.price.toFixed(2)}</button></div>
         </div>`
   }
 }
 
+// update add quarter for onclick in snacks controller 
